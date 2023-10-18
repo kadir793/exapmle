@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(YazilimTurk_DK_KodBlogu.png);
+    background-size: cover;
+
+}  
+.anne{
+    width: 450px;
+    height: 739px;
+    background-color: #DCE0AC;
+    padding: 40px;
+    text-align:center;
+    margin: auto;
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    border-radius: 50px;
+
+}
+.anne img{
+        border-radius:50% ;
+        width: 200px;
+        height: 200px;
+        cursor: pointer;
+}
+.anne image:hover{
+    transform: scale(0.9);
+}
+.anne h1{
+    font-size: 40px;
+    font-weight: 100px;
+    letter-spacing: 4px;
+
+}
+.anne h2{
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+.anne p{
+    text-align: justify;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.anne li{
+    display: inline-block;
+    margin:1rem;
+    list-style: none;
+    
+}
+.anne li a{
+    color: red;
+    font-size: 60px;
+    transition: all ease-in-out 250ms; ;
+
+}
+.anne li a:hover{
+    color: black;
+}
